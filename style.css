@@ -1,0 +1,57 @@
+.navbar-brand img {
+  width: 35%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+.navbar-brand {
+  margin-left: 44%;
+}
+
+.cupom-off {
+  padding-top: 69px;
+  background-color: #272727;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cupom {
+  background-color: white;
+  color: #cc1f1f;
+  padding: 2px;
+  font-weight: bold;
+}
+
+.vans-oldschool {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 0rem;
+}
+
+.lizzie-foot {
+  width: 100%;
+}
+
+.half-cab img {
+  width: 100%;
+}
+
+.half-cab p {
+  padding: 0px 30px;
+  width: 100%;
+}
+
+.sandy-liang img {
+  width: 100%;
+}
+
+.sandy-liang p {
+  padding: 0px 30px;
+  width: 100%;
+}
