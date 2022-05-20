@@ -32,6 +32,9 @@ header {
 
 p {
   margin-bottom: 0rem;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .lizzie-foot {
@@ -63,22 +66,203 @@ p {
   height: 17px;
 }
 
-h4{
-    text-transform: uppercase;
+.bar-2 {
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: bold;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.grid-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.foot-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.foot-age {
+  font-size: 12px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btns {
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  margin: 0px 10px;
+  border-radius: 0;
+  background-color: #272727;
+  text-transform: uppercase;
+  border: none;
+  font-size: 16px;
+  font-family: josefin sans, sans-serif;
+}
+
+.footer {
+  background-color: #272727;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: josefin sans, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.text-h2 {
+  margin-left: 30px;
+}
+
+.text-p2 {
+  margin-left: 30px;
+  color: white;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.full {
+  width: 100%;
+  height: 39px;
+}
+
+.form-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input[placeholder] {
+  overflow: hidden;
+  width: 600px;
+  font-family: "Josefin Sans";
+  padding-left: 15px;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.btn-enviar {
+  margin-top: 10px;
+  font-family: josefin sans, sans-serif;
+  border: solid 2px white;
+  color: white;
+  background-color: #272727;
+}
+
+h5 {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.btn-findshop {
+  margin-left: 30px;
+  margin-top: 10px;
+  border: solid 1px white;
+  color: white;
+  background-color: #272727;
+}
+
+.location-content {
+  display: flex;
+  width: 100%;
+}
+
+.shop-location {
+  display: flex;
+  width: 100%;
+}
+
+.location-itens {
+  width: 100%;
+}
+
+.in-world {
+  margin-left: 30px;
+  width: 100%;
+}
+
+.search-world {
+  background: white;
+  color: black;
+  height: 39px;
+  width: 280px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: none;
+  padding-left: 10px;
+  font-family: josefin sans, sans-serif;
+  text-transform: uppercase;
+}
+
+.vans-story {
+  color: white;
+}
+
+.vans-story ul {
+  list-style: none;
+}
+
+.vans-story li {
+  line-height: 40px;
+}
+
+.vans-story a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+}
+
+.support {
+  color: white;
+}
+
+.support a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+}
+
+.support ul {
+  list-style: none;
+}
+
+.support li {
+  line-height: 40px;
+}
+
+.navigation-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 100px;
+}
+
+.vans-center{
+    margin-top: 30px;
+}
+
+.title-content{
     font-size: 24px;
-}
-
-.grid-container a{
-    text-decoration: none;
-    color: black;
-}
-
-.foot-name{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-.foot-age{
-    font-size: 12px;
 }
