@@ -27,7 +27,10 @@ header {
 }
 
 .vans-oldschool {
+  background-image: url(img/Vans\ 1920p.png);
+  background-size: cover;
   width: 100%;
+  height: 28vh;
 }
 
 p {
@@ -259,10 +262,85 @@ h5 {
   gap: 100px;
 }
 
-.vans-center{
-    margin-top: 30px;
+.vans-center {
+  margin-top: 30px;
 }
 
-.title-content{
-    font-size: 24px;
+.title-content {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  header {
+    width: 100%;
+    position: absolute;
+  }
+
+  .navbar-brand {
+    margin-left: 20%;
+  }
+
+  .nav-link {
+    margin: 0px 10px;
+  }
+
+  .cupom-off {
+    padding-top: 69px;
+    background-color: #272727;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .cupom {
+    background-color: white;
+    color: #cc1f1f;
+    padding: 2px;
+    font-weight: bold;
+  }
+
+  .vans-background {
+    width: 100%;
+    position: relative;
+  }
+
+  .vans-oldschool {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(img/Vans\ 1920p.png);
+  }
+
+  .lizzie-foot {
+    width: 40%;
+  }
+
+  p {
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+    width: 40%;
+    font-size: 13px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 30%;
+  }
+
+  .half-cab p {
+    width: 40%;
+  }
+
+  .half-cab img {
+    width: 40%;
+  }
+
+  .sandy-liang p {
+    width: 40%;
+  }
+
+  .sandy-liang img {
+    width: 40%;
+  }
 }
