@@ -5,6 +5,8 @@
 header {
   width: 100%;
   position: fixed;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
 }
 
 .navbar-brand {
@@ -342,5 +344,43 @@ h5 {
 
   .sandy-liang img {
     width: 40%;
+  }
+
+  .text-p2 {
+    width: 100%;
+  }
+
+  .form-group {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    margin-left: 30px;
+  }
+
+  .text-h2 {
+    text-align: left;
+  }
+
+  .text-p2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .btn-enviar {
+    width: 100px;
+  }
+
+  .btn-enviar:hover {
+    background-color: #505050;
+    color: white;
+  }
+
+  .btn-findshop {
+    width: 280px;
+  }
+
+  .btn-findshop:hover {
+    background-color: #505050;
+    color: white;
   }
 }
